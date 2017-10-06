@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
-    <h1>this is my webRTC</h1>
-</body>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h3 id="peer-id">My peer id: </h3>
+
+    <video id="localStream" width="300" controls></video>
+
+    <br><br>
+    <video id="friendStream" width="300" controls></video>
+
+    <br><br>
+    <input type="text" placeholder="Your friend's signal" id="txtFriendSignal">
+
+    <br><br>
+    <button type="button" class="btn btn-primary" id="btnConnect">Connect</button>
+
+    <script src="bundle.js"></script>
+  </body>
 </html>
