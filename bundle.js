@@ -87,7 +87,7 @@ const Peer = __webpack_require__(42);
 const $ = __webpack_require__(35);
 const uid = __webpack_require__(48);
 
-const config = { host: 'peerjs-server-06102017.herokuapp.com', port: 443, secure: true, key: 'peerjs' };
+const config = { key: 'y1dgheamvgggy14i' };
 
 getPeer = () => {
     const id = uid(10);
